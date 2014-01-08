@@ -114,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tail.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/tail.java">
+      <file leaf-file-name="Tail.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Tail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="31" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.92147803" vertical-offset="128" max-vertical-offset="629">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Head.java" />
         <option value="$PROJECT_DIR$/a.txt" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/tail.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Tail.java" />
       </list>
     </option>
   </component>
@@ -267,7 +268,7 @@
       <method />
     </configuration>
     <configuration default="false" name="tail" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.tail" />
+      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.Tail" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="-5 a.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -630,9 +631,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/tail.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_11/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.33333334" vertical-offset="1118" max-vertical-offset="52292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Tail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.92147803" vertical-offset="128" max-vertical-offset="629">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
