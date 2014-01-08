@@ -7,12 +7,12 @@ public class WcClient{
     public static void main(String[] args) {
         String file = args[0];
         try {
-            BufferedReader br = new BufferedReader(new FileReader(args[0]));
+            BufferedReader br = new BufferedReader(new FileReader(file));
             String fileData = "",line;
             Wc operation = new Wc();
-            while ((line = br.readLine())!= null) {
-                fileData  += line+"\n";
-            }
+            while ((line = br.readLine())!= null)
+                fileData += line + "\n";
+
             System.out.println("file data:\n"+fileData);
             int noOfChars = operation.CountChar(fileData);
             int noOfLines = operation.CountLines(fileData);
