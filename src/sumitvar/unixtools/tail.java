@@ -3,10 +3,10 @@ package sumitvar.unixtools;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-public class Head {
+public class tail {
     public static void main(String[] args) {
         int count;
-        String line,filename = args[0],fileData = "",value = "10";
+        String line,tailLines = "",filename = args[0],fileData = "",value = "10";
 
         if(args[0].startsWith("-")) {
             value = args[0].substring(1);
@@ -15,11 +15,15 @@ public class Head {
         try{
             count = Integer.parseInt(value);
             BufferedReader br = new BufferedReader(new FileReader(filename));
-            for (int i = 0; i < count; i++) {
-                if((line = br.readLine())!= null)
-                fileData += line + "\n";
+            while ((line = br.readLine())!= null){
+                    fileData += line + "\n";
             }
-            System.out.println(fileData);
+            String lines[] = fileData.split("\n");
+            int noOfLines = lines.length - count;
+            for (int i = noOfLines; i < lines.length; i++) {
+                tailLines += lines[i]+"\n";
+            }
+            System.out.println(tailLines);
         }catch(Exception e){
             System.out.println("File not found");
         }
