@@ -11,17 +11,13 @@ public class Tail {
             value = args[0].substring(1);
             filename = args[1];
         }
-        try{
-            count = Integer.parseInt(value);
-            fileData = ReadFile.read(filename);
-            String lines[] = fileData.split("\n");
-            int noOfLines = lines.length - count;
-            for (int i = noOfLines; i < lines.length; i++) {
-                tailLines += lines[i]+"\n";
-            }
-            System.out.println(tailLines);
-        }catch(Exception e){
-            System.out.println("File not found");
+        count = Integer.parseInt(value);
+        fileData = ReadFile.read(filename);
+        String lines[] = fileData.split("\n");
+        int noOfLines = lines.length - count;
+        for (int i = noOfLines; i < lines.length; i++) {
+            tailLines += lines[i]+"\n";
         }
+        System.out.println(tailLines);
     }
 }
