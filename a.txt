@@ -1,15 +1,15 @@
-1.sumit varude
-1.sumit varude
-3.aniket survase
-3.aniket survase
-5.digvijay gunjal
-5.digvijay gunjal
+1.sumit           hanmant                     varude
+1.sumit           hanmant                     varude
+3.aniket    survase
+3.aniket    survase
+5.digvijay  gunjal
+5.digvijay  gunjal
 6.kavita jadhav
 6.kavita jadhav
-9.pallavi golivale
-9.pallavi golivale
+9.pallavi      golivale
+9.pallavi      golivale
 10.shweta dongare
 10.shweta dongare
-12.manali thorat
-13.shital mane
-14.prajkta kudale
+12.manali               thorat
+13.shital     mane
+14.prajkta  kudale

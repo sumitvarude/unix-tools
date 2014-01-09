@@ -9,7 +9,7 @@ public class Tail {
             filename = args[1];
         }
         count = Integer.parseInt(value);
-        fileData = ReadFile.read(filename);
+        fileData = File.read(filename);
         String lines[] = fileData.split("\n");
         int noOfLines = lines.length - count;
         for (int i = noOfLines; i < lines.length; i++) {
