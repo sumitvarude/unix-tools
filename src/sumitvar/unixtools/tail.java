@@ -1,8 +1,5 @@
 package sumitvar.unixtools;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-
 public class Tail {
     public static void main(String[] args) {
         int count;

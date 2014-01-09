@@ -1,8 +1,5 @@
 package sumitvar.unixtools;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-
 public class Uniq {
     public static void main(String[] args) {
         String line,uniqLines = "",filename = args[0],fileData = "";
