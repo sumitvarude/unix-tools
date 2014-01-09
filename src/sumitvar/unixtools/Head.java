@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class Head {
-    public static void main(String[] args) {
+    public static void main(String[]args) {
         int count;
         String line,filename = args[0],fileData = "",value = "10";
 
