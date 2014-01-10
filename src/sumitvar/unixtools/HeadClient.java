@@ -3,6 +3,8 @@ package sumitvar.unixtools;
 public class HeadClient {
     public static void main(String[] args) {
         int count;
+        FileOperations fs = new FileOperations();
+        Head head = new Head();
         String line,filename = args[0],fileData = "",value = "10";
 
         if(args[0].startsWith("-")) {
@@ -10,8 +12,8 @@ public class HeadClient {
             filename = args[1];
         }
         count = Integer.parseInt(value);
-        fileData = File.read(filename);
-        String headData = Head.getHead(count,fileData);
+        fileData = fs.read(filename);
+        String headData = head.getHead(count,fileData);
         System.out.println(headData);
     }
 }
