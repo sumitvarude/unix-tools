@@ -1,9 +1,8 @@
 package sumitvar.unixtools;
 
 public class ReduceSpaces {
-    public static void main(String[] args) {
-        String fileData = File.read(args[0]);
+    public String reduce(String fileData){
         fileData = fileData.replaceAll("[ ]+", " ");
-        System.out.println(fileData);
+        return fileData;
     }
 }
