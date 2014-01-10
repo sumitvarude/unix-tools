@@ -3,15 +3,15 @@ package sumitvar.unixtools;
 public class WcClient{
     public static void main(String[] args) {
         String file = args[0];
-        try {
-            String fileData = File.read(file);
-            Wc operation = new Wc();
-            int noOfChars = operation.CountChar(fileData);
-            int noOfLines = operation.CountLines(fileData);
-            int noOfWords = operation.CountWord(fileData);
-            System.out.println("	"+noOfLines+"	"+noOfWords+"	"+noOfChars+" "+file);
-        } catch (Exception e) {
-            System.out.println("file not found " + file);
-        }
+        ReduceSpaces rs = new ReduceSpaces();
+        FileOperations fs = new FileOperations();
+
+        String fileData = fs.read(file);
+        String filedataForWord = rs.reduce(fileData);
+        Wc wcOperation = new Wc();
+        int noOfChars = wcOperation.CountChar(fileData);
+        int noOfLines = wcOperation.CountLines(fileData);
+        int noOfWords = wcOperation.CountWord(filedataForWord);
+        System.out.println("	"+noOfLines+"	"+noOfWords+"	"+noOfChars+" "+file);
     }
 }
