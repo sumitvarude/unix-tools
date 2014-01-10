@@ -58,42 +58,8 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/sumitvar/unixtools/Head.java" line="7" class="sumitvar.unixtools.Head" package="sumitvar.unixtools">
-        <option name="WATCH_ENTRY" value="true" />
-        <option name="WATCH_EXIT" value="true" />
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </method_breakpoints>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/sumitvar/unixtools/Head.java" line="13" class="sumitvar.unixtools.Head" package="sumitvar.unixtools">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <method_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -103,19 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReduceSpaces.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/ReduceSpaces.java">
+      <file leaf-file-name="FileOperations.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/FileOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.35334873" vertical-offset="0" max-vertical-offset="433">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="a.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/a.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="5" column="27" selection-start="115" selection-end="115" vertical-scroll-proportion="0.16707617" vertical-offset="0" max-vertical-offset="407">
               <folding />
             </state>
           </provider>
@@ -131,17 +88,24 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Wc.java" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/tail.java" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Uniq/java.java" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/ReadFile.java" />
-        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Uniq.java" />
+        <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Wc.java" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Head.java" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Tail.java" />
-        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/WcClient.java" />
-        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/File.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Uniq.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/Cut.java" />
         <option value="$PROJECT_DIR$/src/sumitvar/unixtools/ReduceSpaces.java" />
-        <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/ReduceClient.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/CutClient.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/File.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/FileOperations.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/HeadClient.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/TailClient.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/UniqClient.java" />
+        <option value="$PROJECT_DIR$/src/sumitvar/unixtools/WcClient.java" />
       </list>
     </option>
   </component>
@@ -177,8 +141,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,6 +179,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,79 +200,80 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sumitvar\IdeaProjects\unix-tools\src\sumitvar\unixtools" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Head">
+  <component name="RunManager" selected="Application.WcClient">
+    <configuration default="false" name="CutClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.CutClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value=" -d&quot; &quot; a.txt  -f1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unix-tools" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HeadClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.HeadClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-5 a.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unix-tools" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TailClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.TailClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-5 a.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unix-tools" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UniqClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.UniqClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="a.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="unix-tools" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="WcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.WcClient" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="a.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="unix-tools" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="tail" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.Tail" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-5 a.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="unix-tools" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Uniq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.Uniq" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="a.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="unix-tools" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Head" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.Head" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-5 a.txt" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="unix-tools" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ReduceSpaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumitvar.unixtools.ReduceSpaces" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="a.txt" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -451,19 +416,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WcClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.tail" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Uniq" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Head" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ReduceSpaces" />
+      <item index="0" class="java.lang.String" itemvalue="Application.CutClient" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HeadClient" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TailClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.UniqClient" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WcClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Head" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Uniq" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ReduceSpaces" />
-        <item index="3" class="java.lang.String" itemvalue="Application.WcClient" />
-        <item index="4" class="java.lang.String" itemvalue="Application.tail" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WcClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.UniqClient" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TailClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HeadClient" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CutClient" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -519,7 +484,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="779" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -527,18 +492,18 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39876354" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838038" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32766616" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3179792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33075735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -567,6 +532,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Cut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/CutClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/ReduceSpaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/ReduceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Head.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/HeadClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="55" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Head.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="40" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
@@ -595,7 +602,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/File.java">
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/FileOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="408">
           <folding />
@@ -728,58 +735,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/WcClient.java">
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Cut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="4" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Wc.java">
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/HeadClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.28902626" vertical-offset="0" max-vertical-offset="647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="15" column="30" selection-start="500" selection-end="500" vertical-scroll-proportion="0.62653565" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Head.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="634" selection-end="634" vertical-scroll-proportion="0.6073903" vertical-offset="60" max-vertical-offset="561">
+        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.083538085" vertical-offset="0" max-vertical-offset="407">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Uniq.java">
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/CutClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.03926097" vertical-offset="0" max-vertical-offset="433">
+        <state line="18" column="30" selection-start="721" selection-end="721" vertical-scroll-proportion="0.75184274" vertical-offset="0" max-vertical-offset="748">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Tail.java">
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/ReduceClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/ReduceSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.35334873" vertical-offset="0" max-vertical-offset="433">
+        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Tail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="56" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/TailClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="511" selection-end="511" vertical-scroll-proportion="0.58476657" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/UniqClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="381" selection-end="381" vertical-scroll-proportion="0.41769043" vertical-offset="0" max-vertical-offset="407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Uniq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="383" selection-end="383" vertical-scroll-proportion="0.5012285" vertical-offset="0" max-vertical-offset="407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/Wc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="368" selection-end="368" vertical-scroll-proportion="0.58476657" vertical-offset="0" max-vertical-offset="407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/WcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="35" selection-start="505" selection-end="505" vertical-scroll-proportion="0.54299754" vertical-offset="0" max-vertical-offset="407">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sumitvar/unixtools/FileOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="115" selection-end="115" vertical-scroll-proportion="0.16707617" vertical-offset="0" max-vertical-offset="407">
           <folding />
         </state>
       </provider>
