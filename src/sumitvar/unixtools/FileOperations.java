@@ -16,4 +16,15 @@ public class FileOperations {
         }
         return fileData;
     }
+    public String getCombinedData(String[] lines){
+        String combinedData = "";
+        for (int i = 0; i < lines.length; i++) {
+            combinedData += lines[i]+"\n";
+        }
+        return combinedData;
+    }
+    public String[] getLines(String fileData){
+        String lines[] = fileData.split("\n");
+        return lines;
+    }
 }
