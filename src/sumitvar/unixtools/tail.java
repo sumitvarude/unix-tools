@@ -1,13 +1,14 @@
 package sumitvar.unixtools;
 
 public class Tail {
-    public static String getTail(int count,String fileData) {
-        String tailLines = "";
+    public static String getTail(int count, String fileData) {
+        StringBuilder tailLines = new StringBuilder();
         String lines[] = fileData.split("\n");
         int noOfLines = lines.length - count;
         for (int i = noOfLines; i < lines.length; i++) {
-            tailLines += lines[i]+"\n";
+            tailLines.append(lines[i]);
+            tailLines.append("\n");
         }
-        return tailLines;
+        return tailLines.toString();
     }
 }

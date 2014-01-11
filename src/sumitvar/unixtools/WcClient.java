@@ -1,6 +1,6 @@
 package sumitvar.unixtools;
 
-public class WcClient{
+public class WcClient {
     public static void main(String[] args) {
         String file = args[0];
         ReduceSpaces rs = new ReduceSpaces();
@@ -12,6 +12,6 @@ public class WcClient{
         int noOfChars = wcOperation.CountChar(fileData);
         int noOfLines = wcOperation.CountLines(fileData);
         int noOfWords = wcOperation.CountWord(filedataForWord);
-        System.out.println("	"+noOfLines+"	"+noOfWords+"	"+noOfChars+" "+file);
+        System.out.println("	" + noOfLines + "	" + noOfWords + "	" + noOfChars + " " + file);
     }
 }

@@ -1,11 +1,13 @@
 package sumitvar.unixtools;
 
 public class Head {
-    public static String getHead(int count,String fileData) {
-        String headData = "";
+    public static String getHead(int count, String fileData) {
+        StringBuilder headData = new StringBuilder();
         String lines[] = fileData.split("\n");
-        for (int i = 0; i < count; i++)
-            headData += lines[i]+"\n";
-        return headData;
+        for (int i = 0; i < count; i++){
+            headData.append(lines[i]);
+            headData.append("\n");
+        }
+        return headData.toString();
     }
 }
