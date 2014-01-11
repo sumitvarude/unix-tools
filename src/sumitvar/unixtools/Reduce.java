@@ -1,6 +1,6 @@
 package sumitvar.unixtools;
 
-public class ReduceSpaces {
+public class Reduce {
     public String reduce(String fileData) {
         fileData = fileData.replaceAll("[ ]+", " ");
         return fileData;
