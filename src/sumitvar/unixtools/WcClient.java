@@ -3,7 +3,7 @@ package sumitvar.unixtools;
 public class WcClient {
     public static void main(String[] args) {
         String file = args[0];
-        ReduceSpaces rs = new ReduceSpaces();
+        Reduce rs = new Reduce();
         FileOperations fs = new FileOperations();
 
         String fileData = fs.read(file);
