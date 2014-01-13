@@ -5,16 +5,18 @@ import java.io.FileReader;
 
 public class FileOperations {
     public static String read(String fileName) {
-        String line, fileData = "";
+        String line;
+        StringBuilder fileData = new StringBuilder();
         try {
             BufferedReader br = new BufferedReader(new FileReader(fileName));
             while ((line = br.readLine()) != null) {
-                fileData += line + "\n";
+                fileData.append(line);
+                fileData.append("\n");
             }
         } catch (Exception e) {
             System.out.println("file not found");
         }
-        return fileData;
+        return fileData.toString();
     }
 
     public String getCombinedData(String[] lines) {
