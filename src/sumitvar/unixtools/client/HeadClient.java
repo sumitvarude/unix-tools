@@ -20,6 +20,7 @@ public class HeadClient {
         }
         count = Integer.parseInt(value);
         fileData = fs.read(filename);
+
         String headData = head.getHead(count, fileData);
         System.out.println(headData);
     }
