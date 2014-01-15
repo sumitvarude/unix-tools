@@ -1,10 +1,10 @@
 unix-tools
 ==========
 ##Steps to assemble unix-tools
-1.Download folder SV on your device
-2.Create a Path in enivironment veriable with name "SHELL_SCRIPTS"
-3.Set path value as absolute path to SV folder
-4.Add that environment veriable in system veriable PATH
+#####1.Download folder SV on your device
+#####2.Create a Path in enivironment veriable with name "SHELL_SCRIPTS"
+#####3.Set path value as absolute path to SV folder
+#####4.Add that environment veriable in system veriable PATH
 
 
 ## WC
