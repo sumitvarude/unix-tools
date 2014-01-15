@@ -62,6 +62,7 @@ Example -> `svUniq one.txt`
 * svSort file-name
 
            It will be display all content of the file by sorting ascending order.
+           It will also display all data in reversed order.(have to add -r option)
            
 Example -> `svSort one.txt`
 s
