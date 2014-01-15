@@ -14,9 +14,15 @@ public class CutClient {
         Cut cut = new Cut();
 
         String properArgv[] = cutclient.getProperArgv(args);
+        String fileData = fs.read(properArgv[2]);
+
+        if(null == properArgv[1]){
+            System.out.println(fileData);
+            return;
+        }
+
         int fieldValue = Integer.parseInt(properArgv[0].substring(2));
         String delimitor = properArgv[1].substring(2);
-        String fileData = fs.read(properArgv[2]);
         String columnData = cut.column(fieldValue, delimitor, fileData);
         System.out.println(columnData);
     }
