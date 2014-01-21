@@ -1,6 +1,6 @@
 package sumitvar.unixtools;
 
-public class Tail1 {
+public class Tail {
     public static String getTail(int count, String fileData) {
         StringBuilder tailLines = new StringBuilder();
         String lines[] = fileData.split("\n");
