@@ -9,13 +9,13 @@ public class TailTest {
     @Test
     public void testGetTail() throws Exception {
         String expected = "two\nthree\nfour\nfive\nsix\n";
-        String actual = new Tail().getTail(5,text);
+        String actual = new Tail1().getTail(5,text);
         assertEquals(expected,actual);
     }
     @Test
     public void testGetTailWorksWithDifferentNoOfLines() throws Exception {
         String expected = "four\nfive\nsix\n";
-        String actual = new Tail().getTail(3,text);
+        String actual = new Tail1().getTail(3,text);
         assertEquals(expected,actual);
     }
 }

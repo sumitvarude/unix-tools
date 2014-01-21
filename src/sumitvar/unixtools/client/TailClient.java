@@ -1,7 +1,7 @@
 package sumitvar.unixtools.client;
 
 import sumitvar.unixtools.FileOperations;
-import sumitvar.unixtools.Tail;
+import sumitvar.unixtools.Tail1;
 
 public class TailClient {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class TailClient {
             return;
         }
         FileOperations fs = new FileOperations();
-        Tail tail = new Tail();
+        Tail1 tail = new Tail1();
         String line, tailLines = "", filename = args[0], fileData = "", value = "10";
         if (args[0].startsWith("-")) {
             value = args[0].substring(1);
