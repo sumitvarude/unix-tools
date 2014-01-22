@@ -1,1 +1,1 @@
-java -cp $SHELL_SCRIPTS/unix-tools.jar sumitvar.unixtools.client.CutClient "${@}"
+java -cp $UNIX_HOME/lib/unix-tools.jar sumitvar.unixtools.client.CutClient "${@}"
