@@ -17,7 +17,8 @@
     </target>
 
     <target name = "compileTest" depends = "compile">
-        <javac srcdir = "test" destdir = "unix-tools/build/test" includeAntRuntime="false" classpath="external-libraries/junit-4.10.jar;unix-tools/build/src"></javac>
+        <javac srcdir = "test" destdir = "unix-tools/build/test" includeAntRuntime="false"
+               classpath="external-libraries/junit-4.10.jar;unix-tools/build/src"></javac>
     </target>
     <target name = "runTest" depends = "compileTest">
         <java classname="org.junit.runner.JUnitCore"
